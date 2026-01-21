@@ -1,2 +1,3 @@
- your embedded C projects, modify the LED colors or sizes in create_led_panel() to match hardware like DMD displays.
-Best Practices: Test patterns on real hardware (e.g., STM32F407) after exporting. If integrating with cloud data (like your DRM3400 system), consider adding export options for binary formats.
+A simple Python application using Tkinter to simulate an LED panel, allowing users to draw, edit, and generate C++ code for bitmap patterns. Ideal for embedded systems developers working on LED displays, such as P10 panels or custom matrices. This tool helps visualize and export patterns as uint8_t arrays for use in microcontrollers like STM32 or Arduino.
+
+
